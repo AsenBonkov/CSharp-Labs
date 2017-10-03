@@ -6,14 +6,14 @@ namespace MathPower
     {
         static void Main(string[] args)
         {
-            int numberOne = int.Parse(Console.ReadLine());
-            int numberTwo = int.Parse(Console.ReadLine());
+            double numberOne = double.Parse(Console.ReadLine());
+            double numberTwo = double.Parse(Console.ReadLine());
             Console.WriteLine(RaiseToPower(numberOne, numberTwo));
         }
 
-        static double RaiseToPower(double number, int power)
+        static double RaiseToPower(double number, double power)
         {
-            double result = 0d;
+            double result = 0;
             result = Math.Pow(number, power);
             return result;    
         }

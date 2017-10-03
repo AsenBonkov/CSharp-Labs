@@ -6,7 +6,7 @@ namespace TemperatureConversion
     {
         static void Main(string[] args)
         {
-            int fahrenheit = int.Parse(Console.ReadLine());
+            double fahrenheit = double.Parse(Console.ReadLine());
             double celsius = FaranheitToCelsius(fahrenheit);
             Console.WriteLine("{0:F2}", celsius);
         }
